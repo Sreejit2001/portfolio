@@ -24,3 +24,7 @@ function resume() {
 function contact() {
     document.location.href = "#contact_section"
 }
+
+function submit(){
+    swal("Thanks!", "Your response was submmitted.", "success");
+}
